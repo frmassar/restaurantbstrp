@@ -1,0 +1,71 @@
+/* body{
+    background-image: url("./images/texture2.jpg")!important;
+    background-attachment: fixed;
+} */
+.yellow{
+    background-image: url("../images/texture2.jpg")!important;
+    background-attachment: fixed;
+    padding-bottom:60px;
+
+}
+.purple{
+    background-image: url("../images/texture.jpg")!important;
+    background-attachment: fixed;
+
+}
+.jumbotron{
+    background-image: url("../images/mex.jpg");
+    background-size:cover;
+    color: white;
+    box-shadow: 2px 6px rgba(47,43,43,0.4);
+
+}
+.logo{
+    width: 70px;
+    opacity: 0.8;
+}
+.contnav{
+    /* background-color:rgba(47,43,43,0.4);
+    padding-top: 10px; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contnav a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    background-color: rgba(47,43,43,0.4);
+
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+.carousel-inner img {
+    margin: auto;
+    border-radius: 10%
+}
+.aboutus{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(47,43,43,0.4);
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+}
+.mention{
+    padding-top:50px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.contactback{
+    background-image: url(../images/texture3.jpg);
+    width: 100%;
+}
