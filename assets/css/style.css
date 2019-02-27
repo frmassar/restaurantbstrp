@@ -1,15 +1,13 @@
-/* body{
-    background-image: url("./images/texture2.jpg")!important;
-    background-attachment: fixed;
-} */
+
 .yellow{
-    background-image: url("../images/texture2.jpg")!important;
+    background-color: #cf392e;
     background-attachment: fixed;
     padding-bottom:60px;
 
 }
 .purple{
-    background-image: url("../images/texture.jpg")!important;
+    /* background-image: url("../images/texture.jpg")!important; */
+    background-color: #589737;
     background-attachment: fixed;
 
 }
@@ -18,6 +16,7 @@
     background-size:cover;
     color: white;
     box-shadow: 2px 6px rgba(47,43,43,0.4);
+    font-family: 'Playfair Display', serif;
 
 }
 .logo{
@@ -54,10 +53,12 @@
 .aboutus{
     display:flex;
     flex-direction: column;
-    background-color: rgba(47,43,43,0.4);
+    background-color: rgba(47,43,43,0.6);
     color:white;
     text-align: center;
     padding-top: 30px;
+    padding-bottom:30px;
+    font-family: 'Playfair Display', serif;
 }
 .mention{
     padding-top:50px;
@@ -66,35 +67,78 @@
 }
 
 .contactback{
-    background-color:  rgba(47,43,43,0.4);
+    background-color:  #589737;;
     width: 100%;
 }
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-    border-radius: 3%; }
-
-    
 .opac{
-    background-color: rgba(47,43,43,0.4);
+    background-color: #589737;
     }
-.containers{
-    display:flex;
-    flex-direction:row 
-}
 
-.carteuno{
-    display:flex;
-    flex-direction:column
+    #lightbox .modal-content {
+        display: inline-block;
+        text-align: center;
+        }
+        
+        #lightbox .close {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        background-color: rgb(25, 25, 25);
+        padding: 5px 8px;
+        border-radius: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        position: absolute;
+        top: -15px;
+        right: -55px;
+        
+        z-index:1032;
+        }
+
+.carte{
+    font-family: 'Playfair Display', serif;
+    /* color: white;
+    background-color:rgba(250,237,190,0.78); */
+}
+.list-group-items{
+    background-color: red;
+}
+.photosPagePhotos{
+    margin-bottom: 8px;
     
-}
-.cartedos{
-    display:flex;
-    flex-direction:column
+    }
+#photo h1{
+    color:white;
+    font-family: 'Playfair Display', serif;
 
+}
+
+.adresse{
+    background-color: #589737;
+    padding:20px;
+    border:solid white 1px;
+    border-radius:20px;
+}
+.social{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:20px;
+    border:solid white 1px;
+    border-radius:20px;
+}
+.horaire{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#cf392e;
+    padding:20px;
+    border:solid white 1px;
+    border-radius:20px;
+    
+
+}
+.resto{
+    font-family: 'Playfair Display', serif;
+    text-align:center;
 }
