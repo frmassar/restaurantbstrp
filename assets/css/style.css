@@ -1,8 +1,10 @@
 
-.yellow{
-    background-color: #cf392e;
+.fond{
+    background-image: url("../images/skull.jpg");
+    background-size: cover;
     background-attachment: fixed;
     padding-bottom:60px;
+    background-position: center;
 
 }
 .purple{
@@ -12,12 +14,19 @@
 
 }
 .jumbotron{
-    background-image: url("../images/mex.jpg");
-    background-size:cover;
+    /* background-image: url("../images/mex.jpg"); */
+    /* background-size:cover; */
+    background-color:rgba(47,43,43,0.6)!important;
     color: white;
     box-shadow: 2px 6px rgba(47,43,43,0.4);
-    font-family: 'Playfair Display', serif;
+    font-family: 'American TypeWriter'
 
+}
+.jumbotron h1{
+    text-shadow:#ffae00 2.5px 2.5px 0,
+    #ff00c0 5px 5px 0,
+    #aa0306 7.5px 7.5px 0,
+    #333 10.5px 10.5px 10px;color:#FFDB57;
 }
 .logo{
     width: 70px;
@@ -28,7 +37,6 @@
     padding-top: 10px; */
     display: flex;
     justify-content: space-around;
-    
 }
 .contnav a{
     text-decoration: none;
@@ -37,7 +45,11 @@
     background-color: rgba(47,43,43,0.4);
 
 }
-
+.contnav a:hover{
+    border-bottom:solid 5px #ffc107a3;
+    background-color:#cb353575; 
+    color:white;
+}
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -54,53 +66,50 @@
     display:flex;
     flex-direction: column;
     background-color: rgba(47,43,43,0.6);
-    color:white;
+    
     text-align: center;
     padding-top: 30px;
     padding-bottom:30px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'American TypeWriter' ;
+    font-size:20px;
+    color:#FFDB57;
 }
 .mention{
     padding-top:50px;
     display:flex;
     justify-content:space-evenly;
 }
-
-.contactback{
-    background-color:  #589737;;
-    width: 100%;
-}
-
 .opac{
-    background-color: #589737;
+    background-color: rgba(47,43,43,0.6);
     }
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;
+    }
+#lightbox .close {
+opacity: 1;
+color: rgb(255, 255, 255);
+background-color: rgb(25, 25, 25);
+padding: 5px 8px;
+border-radius: 30px;
+border: 2px solid rgb(255, 255, 255);
+position: absolute;
+top: -15px;
+right: -55px;
 
-    #lightbox .modal-content {
-        display: inline-block;
-        text-align: center;
-        }
-        
-        #lightbox .close {
-        opacity: 1;
-        color: rgb(255, 255, 255);
-        background-color: rgb(25, 25, 25);
-        padding: 5px 8px;
-        border-radius: 30px;
-        border: 2px solid rgb(255, 255, 255);
-        position: absolute;
-        top: -15px;
-        right: -55px;
-        
-        z-index:1032;
-        }
-
+z-index:1032;
+}
 .carte{
-    font-family: 'Playfair Display', serif;
+    font-family: 'American TypeWriter';
     /* color: white;
     background-color:rgba(250,237,190,0.78); */
 }
-.list-group-items{
-    background-color: red;
+#carte h1{
+    color:white;
+}
+.list-group-item{
+    color:white;
+    background-color: #cb353575!important;
 }
 .photosPagePhotos{
     margin-bottom: 8px;
@@ -108,37 +117,56 @@
     }
 #photo h1{
     color:white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'American TypeWriter';
 
 }
-
 .adresse{
-    background-color: #589737;
+    background-color: #28a74582;
     padding:20px;
     border:solid white 1px;
     border-radius:20px;
+    color:white;
 }
 .social{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: #ffc107a3;
     padding:20px;
     border:solid white 1px;
     border-radius:20px;
+    color:white;
 }
 .horaire{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:#cf392e;
+    background-color:#dc35458f;
     padding:20px;
     border:solid white 1px;
     border-radius:20px;
-    
-
+    color:white;
 }
 .resto{
-    font-family: 'Playfair Display', serif;
+    font-family: 'American TypeWriter';
     text-align:center;
+}
+#resto h1{
+    color:white;
+}
+.ok{
+    background-color: #edcbcba1 !important;
+}
+.ok h1{
+    color:white !important;
+}
+.fab{
+    color: #FFDB57;
+}
+#popup{
+    color:white;
+}
+#date{
+    color:#FFDB57;
+    background-color: #cb353575!important;
 }
